@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="899.0" style="-fx-background-color: #ff9b04;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+	<children>
+		<Button layoutX="575.0" layoutY="326.0" mnemonicParsing="false" onAction="#startButtonTODO" style="-fx-border-color: #000000;" text="Start" />
+		<ImageView fitHeight="500.0" fitWidth="345.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgsAndIcons/rsz_4javareclogo.png" />
+         </image>
+		</ImageView>
+		<Label contentDisplay="CENTER" layoutX="381.0" layoutY="234.0" text="Welcome to the Java Records ERP" textFill="#333333">
+			<font>
+
+				<Font name="Lucida Sans Regular" size="27.0" />
+			</font>
+		</Label>
+	</children>
+</AnchorPane>
